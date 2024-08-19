@@ -1,5 +1,4 @@
 import data from 'data.json';
-import 'dayjs/locale/ko';
 import { Caption } from '@/components/Text.tsx';
 
 const WeddingDateText = () => {

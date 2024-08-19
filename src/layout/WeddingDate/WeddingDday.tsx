@@ -1,7 +1,6 @@
-import 'dayjs/locale/ko';
 import { useEffect, useState } from 'react';
-import * as dayjs from 'dayjs';
-import data from '../../data.json';
+import data from 'data.json';
+import dayjs from 'dayjs';
 
 const WeddingDday = () => {
   const { date } = data;
