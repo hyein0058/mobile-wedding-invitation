@@ -23,7 +23,9 @@ const Accordion = ({ title, children }: IAccordionProps) => {
         </span>
       </AccordionHeader>
 
-      {isOpen && <AccordionContent>{children}</AccordionContent>}
+      <AccordionContent isOpen={isOpen}>
+        {children}
+      </AccordionContent>
     </AccordionWrapper>
   );
 };
@@ -59,9 +61,13 @@ const AccordionHeader = styled.div<{ isActive: boolean }>`
   }
 `;
 
-const AccordionContent = styled.div`
+const AccordionContent = styled.div<{ isOpen: boolean }>`
   font-size: 14px;
   text-align: justify;
-  padding: 10px 20px;
   background-color: #ffffff;
+  overflow: hidden;
+  padding: ${({ isOpen }) => (isOpen ? '10px 20px' : '0 20px')};
+  max-height: ${({ isOpen }) => (isOpen ? '1000px' : '0')}; /* arbitrary large number for animation */
+  opacity: ${({ isOpen }) => (isOpen ? 1 : 0)};
+  transition: max-height 0.5s ease-out, opacity 0.5s ease-out, padding 0.5s ease-out;
 `;
