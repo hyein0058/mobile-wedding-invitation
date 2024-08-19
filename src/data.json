@@ -86,6 +86,10 @@
       ]
     }
   ],
+  "date": {
+    "weddingDate": "2024-11-23",
+    "weddingDateText": "2024년 11월 23일\n토요일 오후 5시"
+  },
   "mapInfo": {
     "address1": "MJ컨벤션 파티오홀",
     "address2": "경기 부천시 소사구 경인로 386\nMJ컨벤션 5층\n032-347-5500",

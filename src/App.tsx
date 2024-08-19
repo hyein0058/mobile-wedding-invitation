@@ -9,9 +9,13 @@ import GalleryWrap from '@/layout/Gallery/GalleryWrap.tsx';
 import Invitation from '@/layout/Invitation/Invitation.tsx';
 import Location from '@/layout/Location/Location.tsx';
 import Main from '@/layout/Main/Main.tsx';
+import Calendar from '@/layout/WeddingDate/Calendar.tsx';
+import WeddingDateText from '@/layout/WeddingDate/WeddingDateText.tsx';
+import WeddingDday from '@/layout/WeddingDate/WeddingDday.tsx';
+import './App.css';
 
 function App() {
-  const ncpClientId = import.meta.env.VITE_APP_NAVERMAPS_CLIENT_ID;
+  const ncpClientId = import.meta.env.VITE_APP_NAVERMAPS_CLIENT_ID as string;
   const [isVisible, setIsVisible] = useState(false);
   const galleryRef = useRef(null);
 
@@ -48,6 +52,12 @@ function App() {
         <Wrapper ref={galleryRef}>
           <Heading1>Gallery</Heading1>
           <GalleryWrap />
+        </Wrapper>
+        <Wrapper>
+          <Heading1>예식 일시</Heading1>
+          <WeddingDateText />
+          <Calendar />
+          <WeddingDday />
         </Wrapper>
         <Wrapper>
           <Heading1>마음 전하실 곳</Heading1>
