@@ -1,7 +1,7 @@
 {
   "greeting": {
     "title": "전홍준 \uD83D\uDC8D 최혜인\n결혼합니다!",
-    "message": "저희 결혼합니다.\n\n서로에게 알맞은 온도로 따뜻하던 우리.\n부부로서 첫걸음을 내딛는 그 설렘의 순간에\n소중한 분들을 초대합니다.",
+    "message": "매년 11월 23일이 되면\n저희는 이날의 사진첩을 꺼내보며\n인생에서 가장 행복했던 기억을 떠올릴 것입니다.\n그 때, 그 사진 속에\n저희와 함께 웃고 있는 여러분이 있었으면 좋겠습니다.",
     "host": {
       "groom": {
         "name": "홍준",
@@ -39,10 +39,10 @@
       "host": "신랑측",
       "accountInfo": [
         {
-          "name": "장세모",
+          "name": "전홍준",
           "relation": "신랑",
-          "bank": "카카오뱅크",
-          "account": "1234-56-789012",
+          "bank": "기업",
+          "account": "010-4006-9499",
           "kakaopayAccount": "",
           "tossAccount": ""
         },
@@ -64,10 +64,10 @@
       "host": "신부측",
       "accountInfo": [
         {
-          "name": "황네모",
+          "name": "최혜인",
           "relation": "신부",
-          "bank": "토스뱅크",
-          "account": "1234-5678-9012",
+          "bank": "기업",
+          "account": "010-3470-4667",
           "kakaopayAccount": "",
           "tossAccount": ""
         },
@@ -87,21 +87,25 @@
     }
   ],
   "mapInfo": {
-    "address1": "아펠가모 공덕 라로브홀",
-    "address2": "서울 마포구 마포대로 92\n효성해링턴스퀘어 B동 7층\n02-2197-0230",
-    "naverMap": "https://map.naver.com/p/directions/-/14132311.1099497,4514956.9078363,%EC%95%84%ED%8E%A0%EA%B0%80%EB%AA%A8%20%EA%B3%B5%EB%8D%95,1929913788,PLACE_POI/-/transit?c=15.00,0,0,0,dh",
-    "kakaoMap": "https://map.kakao.com/?map_type=TYPE_MAP&target=car&rt=,,489503,1123003&rt1=&rt2=%EC%95%84%ED%8E%A0%EA%B0%80%EB%AA%A8%20%EA%B3%B5%EB%8D%95%EC%A0%90&rtIds=,630786038",
-    "lat": 37.54222,
-    "lon": 126.952708
+    "address1": "MJ컨벤션 파티오홀",
+    "address2": "경기 부천시 소사구 경인로 386\nMJ컨벤션 5층\n032-347-5500",
+    "naverMap": "https://naver.me/Fgivzc56",
+    "kakaoMap": "https://place.map.kakao.com/27339651",
+    "lat": 37.4819407,
+    "lon": 126.7984955
   },
   "locationInfo": [
     {
       "title": "\uD83D\uDCCD 지하철",
-      "desc": "\uD83D\uDC49\uD83C\uDFFB 5·6호선 공덕역 7번 출구 (도보 2분)\n\uD83D\uDC49\uD83C\uDFFB 경의·중앙선, 공항철도 공덕역 10번 출구 (도보 30초)"
+      "desc": "\uD83D\uDC49\uD83C\uDFFB 1호선·서해선 소사역 1번 출구 (도보 7분)\n"
     },
     {
       "title": "\uD83D\uDCCD 주차안내",
-      "desc": "\uD83D\uDC49\uD83C\uDFFB 건물 내 3-5층 2시간 무료주차\n(안내데스크에서 주차권 수령)"
+      "desc": "\uD83D\uDC49\uD83C\uDFFB 건물 내 1-5층, 주차타워 2시간 무료주차\n(안내데스크에서 주차권 수령)"
+    },
+    {
+      "title": "\uD83D\uDCCD 주차안내2",
+      "desc": "\uD83D\uDC49\uD83C\uDFFB 건물 내 1-5층, 주차타워 2시간 무료주차\n(안내데스크에서 주차권 수령)"
     }
   ],
   "emojis": [
