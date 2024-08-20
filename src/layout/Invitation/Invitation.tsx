@@ -18,7 +18,7 @@ const Invitation = () => {
     startDateTime: dayjs('2024-11-24 17:00').utc().format('YYYYMMDDTHHmmss') + 'Z',
     endDateTime: dayjs('2024-11-24 18:00').utc().format('YYYYMMDDTHHmmss') + 'Z',
     details: greeting.message,
-    location: 'Seoul, South Korea',
+    location: 'MJ컨벤션, 대한민국 경기도 부천시 소사구 소사본동 65-7',
   };
 
   const googleCalendarUrl = `https://calendar.google.com/calendar/r/eventedit?text=${encodeURIComponent(eventDetails.title)}&dates=${eventDetails.startDateTime}/${eventDetails.endDateTime}&details=${encodeURIComponent(eventDetails.details)}&location=${encodeURIComponent(eventDetails.location)}&sf=true&output=xml`;

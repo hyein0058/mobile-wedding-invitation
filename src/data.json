@@ -9,11 +9,11 @@
         "parents": [
           {
             "relation": "아버지",
-            "name": "장아빠"
+            "name": "아빠"
           },
           {
             "relation": "어머니",
-            "name": "이엄마"
+            "name": "엄마"
           }
         ]
       },
@@ -23,11 +23,11 @@
         "parents": [
           {
             "relation": "아버지",
-            "name": "황아빠"
+            "name": "최현수"
           },
           {
             "relation": "어머니",
-            "name": "이엄마"
+            "name": "김애정"
           }
         ]
       }
@@ -42,9 +42,7 @@
           "name": "전홍준",
           "relation": "신랑",
           "bank": "기업",
-          "account": "010-4006-9499",
-          "kakaopayAccount": "",
-          "tossAccount": ""
+          "account": "010-4006-9499"
         },
         {
           "name": "장아빠",
@@ -67,27 +65,13 @@
           "name": "최혜인",
           "relation": "신부",
           "bank": "기업",
-          "account": "010-3470-4667",
-          "kakaopayAccount": "",
-          "tossAccount": ""
-        },
-        {
-          "name": "황아빠",
-          "relation": "아버지",
-          "bank": "농협",
-          "account": "123-45-678901"
-        },
-        {
-          "name": "이엄마",
-          "relation": "어머니",
-          "bank": "농협",
-          "account": "123-45-678901"
+          "account": "010-3470-4667"
         }
       ]
     }
   ],
   "date": {
-    "weddingDate": "2024-11-23",
+    "weddingDate": "2024-11-23 17:00",
     "weddingDateText": "2024년 11월 23일\n토요일 오후 5시"
   },
   "mapInfo": {
