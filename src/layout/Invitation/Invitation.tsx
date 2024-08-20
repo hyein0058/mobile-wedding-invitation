@@ -15,8 +15,8 @@ const Invitation = () => {
 
   const eventDetails = {
     title: '전홍준 \uD83D\uDC8D 최혜인 결혼식',
-    startDateTime: dayjs('2024-11-24 17:00').utc().format('YYYYMMDDTHHmmss') + 'Z',
-    endDateTime: dayjs('2024-11-24 18:00').utc().format('YYYYMMDDTHHmmss') + 'Z',
+    startDateTime: dayjs('2024-11-23 17:00').utc().format('YYYYMMDDTHHmmss') + 'Z',
+    endDateTime: dayjs('2024-11-23 18:00').utc().format('YYYYMMDDTHHmmss') + 'Z',
     details: greeting.message,
     location: 'MJ컨벤션, 대한민국 경기도 부천시 소사구 소사본동 65-7',
   };
