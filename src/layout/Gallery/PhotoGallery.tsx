@@ -17,14 +17,14 @@ const PhotoGallery = () => {
                   flexDirection: 'column',
                   alignItems: 'center',
                   height: '100%',
-                  margin: '0 10px',
+                  margin: '0 5px',
                 }}>
                 <Item
                   cropped
                   original={image.source}
                   thumbnail={image.source}
-                  width='1280'
-                  height='1920'>
+                  width={image.previewWidth}
+                  height={image.previewHeight}>
                   {({ ref, open }) => (
                     <img
                       style={{
