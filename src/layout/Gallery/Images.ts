@@ -1,10 +1,10 @@
-import image03 from '@/assets/images/WUNE0148-1.jpg';
+import image03 from '@/assets/images/WUNE0148-2.jpg';
 import image06 from '@/assets/images/WUNE0300-1.jpg';
 import image05 from '@/assets/images/WUNE0434-1.jpg';
 import image04 from '@/assets/images/WUNE0477-1.jpg';
-import image08 from '@/assets/images/WUNE0737-1.jpg';
-import image01 from '@/assets/images/WUNE0753-1.jpg';
-import image02 from '@/assets/images/WUNE0815-1.jpg';
+import image08 from '@/assets/images/WUNE0737-2.jpg';
+import image01 from '@/assets/images/WUNE0753-2.jpg';
+import image02 from '@/assets/images/WUNE0815-2.jpg';
 import image07 from '@/assets/images/WUNE1090-1.jpg';
 
 const {userAgent} = navigator
